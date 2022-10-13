@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+/* Estilos pagina index */
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+inicio {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+    padding-left: 5%;
+    padding-right: 30%;
+    
+}
+
+strong {
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+}
+
+inicio h1 {
+    font-size: 4vw;
+}
+
+inicio p {
+    color: #d0d0d0;
+}
+
+.botonacceder{
+    background-color: #0cd0f0;
+}
+
+.botonblog{
+    background-color: red;
+    color: white;
+}
+
+.botonavion{
+    background-color: white;
+}
+
+/* Responsive*/
+
+@media screen and (max-width: 800px) {
+    
+    inicio {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 3.5vw;
+    }
+    inicio h1 {
+        font-size: 7vw;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    inicio {
+        font-size: 2.5vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    button {
+        margin-bottom: 1%;
+    }
+}
